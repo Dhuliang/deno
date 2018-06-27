@@ -50,3 +50,5 @@ script:
  - $BUILD_PATH/mock_runtime_test
  - $BUILD_PATH/mock_main foo bar
  - $BUILD_PATH/deno meow
+ # TODO(ry) Uncomment once cpplint is available.
+ #- ../tools/lint.sh
